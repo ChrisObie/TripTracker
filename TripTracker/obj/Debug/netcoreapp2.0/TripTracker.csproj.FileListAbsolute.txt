@@ -1,0 +1,11 @@
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\obj\Debug\netcoreapp2.0\TripTracker.csprojAssemblyReference.cache
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\obj\Debug\netcoreapp2.0\TripTracker.csproj.CoreCompileInputs.cache
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\obj\Debug\netcoreapp2.0\TripTracker.AssemblyInfoInputs.cache
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\obj\Debug\netcoreapp2.0\TripTracker.AssemblyInfo.cs
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\bin\Debug\netcoreapp2.0\TripTracker.deps.json
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\bin\Debug\netcoreapp2.0\TripTracker.runtimeconfig.json
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\bin\Debug\netcoreapp2.0\TripTracker.runtimeconfig.dev.json
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\bin\Debug\netcoreapp2.0\TripTracker.dll
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\bin\Debug\netcoreapp2.0\TripTracker.pdb
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\obj\Debug\netcoreapp2.0\TripTracker.dll
+C:\Users\coberlin\source\repos\TripTracker.BackService\TripTracker\obj\Debug\netcoreapp2.0\TripTracker.pdb
