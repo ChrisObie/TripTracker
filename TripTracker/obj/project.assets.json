@@ -13137,9 +13137,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\coberlin\\source\\repos\\TripTracker.BackService\\TripTracker\\TripTracker.csproj",
-      "projectName": "TripTracker",
-      "projectPath": "C:\\Users\\coberlin\\source\\repos\\TripTracker.BackService\\TripTracker\\TripTracker.csproj",
+      "projectUniqueName": "C:\\Users\\coberlin\\source\\repos\\TripTracker.BackService\\TripTracker\\TripTracker.BackService.csproj",
+      "projectName": "TripTracker.BackService",
+      "projectPath": "C:\\Users\\coberlin\\source\\repos\\TripTracker.BackService\\TripTracker\\TripTracker.BackService.csproj",
       "packagesPath": "C:\\Users\\coberlin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\coberlin\\source\\repos\\TripTracker.BackService\\TripTracker\\obj\\",
       "projectStyle": "PackageReference",

@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using TripTracker.BackService.Data;
 
 namespace TripTracker
 {
@@ -26,6 +28,8 @@ namespace TripTracker
         {
             services.AddTransient<Models.Repository>();
             services.AddMvc();
+
+            services.AddDbContext<TripContext>(options => options.UseSqlite("Data Source=Trips.db"));
 
             services.AddSwaggerGen(options =>
                 options.SwaggerDoc("v1", new Info { Title = "Trip Tracker", Version = "v1" })

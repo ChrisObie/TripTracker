@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using TripTracker.BackService.Data;
 using TripTracker.Models;
 
 namespace TripTracker.Controllers
@@ -12,24 +13,26 @@ namespace TripTracker.Controllers
     public class TripsController : Controller
     {
 
-        public TripsController(Repository repository)
+        TripContext _context;
+
+        public TripsController(TripContext context)
         {
-            _repository = repository;
+            _context = context;
         }
 
-        private Repository _repository;
+        
         // GET api/Trips
         [HttpGet]
         public IEnumerable<Trip> Get()
         {
-            return _repository.Get();   
+            return _context.Trips.ToList();   
         }
 
         // GET api/Trips/5
         [HttpGet("{id}")]
         public Trip Get(int id)
         {
-            return _repository.Get(id);
+            return _context.Trips.Find(id);
             
         }
 
@@ -37,21 +40,21 @@ namespace TripTracker.Controllers
         [HttpPost]
         public void Post([FromBody]Trip value)
         {
-            _repository.Add(value);
+            _context.Add(value);
         }
 
         // PUT api/Trips/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]Trip value)
         {
-            _repository.Update(value);
+            _context.Update(value);
         }
 
         // DELETE api/Trips/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            _repository.Remove(id);
+            _context.Remove(id);
         }
     }
 }
