@@ -55,6 +55,8 @@ namespace TripTracker
             }
 
             app.UseMvc();
+            
+            TripContext.SeedData(app.ApplicationServices);
         }
     }
 }
